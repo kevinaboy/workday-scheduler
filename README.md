@@ -10,3 +10,4 @@ This app is under construction and will eventually feature the ability to save t
 https://kevinaboy.github.io/workday-scheduler/
 
 ## Screenshot
+![worday scheduler screenshot](https://github.com/kevinaboy/workday-scheduler/blob/main/images/workday-scheduler-screenshot-v1.png?raw=true)
