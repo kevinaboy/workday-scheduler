@@ -1,4 +1,4 @@
-/*
+/* REQUIREMENTS
 GIVEN I am using a daily planner to create a schedule
 
 X 1. WHEN I open the planner
@@ -27,35 +27,26 @@ var today = dayjs().format('dddd');
 
 document.getElementById('currentDay').textContent = today + ", " + date
 
-// time , event name, save button
+/*JavaScipt code for hours
 
-for (let index = 0; index < 7; index++) {
-  var hour = index + 9;
-  var convertedHour = dayjs().hour(hour).format('h A');
+// for (let index = 0; index < 7; index++) {
+//   var hour = index + 9;
+//   var convertedHour = dayjs().hour(hour).format('h A');
 
-  var divEl = document.createElement('div');
-  var h2El = document.createElement('h2');
+//   var divEl = document.createElement('div');
+//   var h2El = document.createElement('h2');
 
-  divEl.classList.add('row');
+//   divEl.classList.add('row');
 
-  h2El.classList.add('hour');
-  h2El.textContent = convertedHour;
+//   h2El.classList.add('hour');
+//   h2El.textContent = convertedHour;
 
-  // stitch them all together
-  divEl.appendChild(h2El);
+//   // stitch them all together
+//   divEl.appendChild(h2El);
 
-  // specify the location of this bundle elements
-  document.getElementById('main').appendChild(divEl)
+//   // specify the location of this bundle elements
+//   document.getElementById('main').appendChild(divEl)
 
-}
+// }
 
-{/* <div class="row">
-      <h2 class="hour">9 AM</h2>
-      <textarea class="event description">Sample event</textarea>
-      <button id="save" class="saveBtn">💾</button>
-    </div>
-    <div class="row">
-      <h2 class="hour">10 AM</h2>
-      <textarea class="event description">Sample event</textarea>
-      <button id="save" class="saveBtn">💾</button>
-    </div> */}
+*/
